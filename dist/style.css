@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+}
+* body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #040D3E;
+}
+* body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 258px;
+  padding-top: 79px;
+}
+* body header .menu {
+  height: 36px;
+  width: 427px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+* body header .menu img {
+  width: 36px;
+  height: 36px;
+}
+* body header .menu .nav {
+  width: 347px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+* body header .menu .nav li {
+  color: #B5B5B5;
+}
+* body header .butn-2 {
+  width: 244px;
+  display: flex;
+  justify-content: space-between;
+}
+* body header .butn-2 button {
+  width: 112px;
+  height: 36px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+* body header .butn-2 .btn-opaciti {
+  border: 1px solid #F2994A;
+  background-color: transparent;
+  border-radius: 4px;
+}
+* body header .butn-2 .btn-opaciti a {
+  text-decoration: none;
+  color: #F2994A;
+}
+* body header .butn-2 .btn-yelow {
+  background-color: #F2994A;
+  border-radius: 4px;
+}
+* body header .butn-2 .btn-yelow a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+* body main .front-block {
+  width: 1177px;
+  display: flex;
+  justify-content: space-between;
+}
+* body main .front-block .left-front {
+  width: 531px;
+  height: 579px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+* body main .front-block .left-front h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  color: #99EFD0;
+}
+* body main .front-block .left-front p {
+  font-family: "Gilroy-SemiBold";
+  font-size: 18px;
+  line-height: 22px;
+  color: #8476AA;
+}
+* body main .front-block .left-front .front-btn {
+  width: 334px;
+  display: flex;
+  justify-content: space-between;
+}
+* body main .front-block .left-front .front-btn button {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  width: 157px;
+  height: 46px;
+  text-transform: uppercase;
+}
+* body main .front-block .left-front .front-btn .learn {
+  background-color: #F2994A;
+  border-radius: 4px;
+}
+* body main .front-block .left-front .front-btn .learn a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+* body main .front-block .left-front .front-btn .demo {
+  border: 1px solid #F2994A;
+  background-color: transparent;
+  border-radius: 4px;
+}
+* body main .front-block .left-front .front-btn .demo a {
+  text-decoration: none;
+  color: #F2994A;
+}
+* body main .front-block .left-front .front-frame {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+}
+* body main .front-block .left-front .front-frame img {
+  width: 140px;
+  height: 80px;
+}
+* body main .front-block .left-front .front-frame .prewiew {
+  display: flex;
+  flex-direction: column;
+}
+* body main .front-block .left-front .front-frame .prewiew h4 {
+  width: 380px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #8476AA;
+}
+* body main .front-block .left-front .front-frame .prewiew p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6D6D78;
+}
+* body main .front-block .right-block img {
+  width: 637px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+* body .gallery {
+  height: 231px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+* body .gallery img {
+  opacity: 15%;
+}
+* body .second-block {
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 169px;
+}
+* body .second-block h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  color: #99EFD0;
+  text-align: center;
+}
+* body .second-block h2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  line-height: 22px;
+  color: #8476AA;
+  text-align: center;
+}
+* body .second-block .icons-block {
+  height: 239px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+* body .second-block .icons-block .icon1 {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+* body .second-block .icons-block .icon1 img {
+  width: 24px;
+  margin-right: 31px;
+}
+* body .second-block .icons-block .icon1 h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  line-height: 22px;
+  color: #99EFD0;
+}
+* body .second-block .icons-block .icon1 p {
+  margin-top: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #8476AA;
+}
+* body .second-block .icons-block .icon2 {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+* body .second-block .icons-block .icon2 img {
+  width: 24px;
+  margin-right: 31px;
+}
+* body .second-block .icons-block .icon2 h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  line-height: 22px;
+  color: #99EFD0;
+}
+* body .second-block .icons-block .icon2 p {
+  margin-top: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #8476AA;
+}
+* body .second-block .icons-block .icon3 {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+* body .second-block .icons-block .icon3 img {
+  width: 24px;
+  margin-right: 31px;
+}
+* body .second-block .icons-block .icon3 h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  line-height: 22px;
+  color: #99EFD0;
+}
+* body .second-block .icons-block .icon3 p {
+  margin-top: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #8476AA;
+}
+* body .second-block .icons-block .icon4 {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+* body .second-block .icons-block .icon4 img {
+  width: 24px;
+  margin-right: 31px;
+}
+* body .second-block .icons-block .icon4 h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  line-height: 22px;
+  color: #99EFD0;
+}
+* body .second-block .icons-block .icon4 p {
+  margin-top: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #8476AA;
+}
+* body .second-block .icons-block .icon5 {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+* body .second-block .icons-block .icon5 img {
+  width: 24px;
+  margin-right: 31px;
+}
+* body .second-block .icons-block .icon5 h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  line-height: 22px;
+  color: #99EFD0;
+}
+* body .second-block .icons-block .icon5 p {
+  margin-top: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #8476AA;
+}
+* body .second-block .icons-block .icon6 {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+* body .second-block .icons-block .icon6 img {
+  width: 24px;
+  margin-right: 31px;
+}
+* body .second-block .icons-block .icon6 h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  line-height: 22px;
+  color: #99EFD0;
+}
+* body .second-block .icons-block .icon6 p {
+  margin-top: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #8476AA;
+}
+* body .traffic {
+  width: 968px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+* body .traffic .left-traffic {
+  height: 279px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+* body .traffic .left-traffic h1 {
+  width: 470px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  color: #99EFD0;
+}
+* body .traffic .left-traffic h1 b {
+  color: #F2994A;
+}
+* body .traffic .left-traffic p {
+  width: 470px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #8476AA;
+}
+* body .traffic .left-traffic button {
+  width: 155px;
+  height: 48px;
+  background-color: #F2994A;
+  border-radius: 4px;
+}
+* body .traffic .left-traffic button a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+* body .traffic img {
+  width: 440px;
+  height: 400px;
+}
+* body .money {
+  width: 1091px;
+  height: 322px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 169px;
+}
+* body .money h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #99EFD0;
+}
+* body .money h1 b {
+  color: #F2994A;
+}
+* body .money p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #8476AA;
+}
+* body .money .numbers {
+  display: flex;
+  justify-content: space-between;
+}
+* body .money h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #99EFD0;
+}
+* body .money h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #8476AA;
+}
+* body .money .num-100 {
+  width: 291px;
+}
+* body .money .num-43 {
+  width: 291px;
+}
+* body .money .num-30 {
+  width: 291px;
+}
